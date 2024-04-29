@@ -6,7 +6,14 @@
 
     <groupId>com.github.Hanselmito</groupId>
     <artifactId>CalculadoraFonsi</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.1</version>
+    <distributionManagement>
+        <repository>
+            <id>github</id>
+            <name>GitHub Packages</name>
+            <url>https://maven.pkg.github.com/Hanselmito/CalculadoraEntorno</url>
+        </repository>
+    </distributionManagement>
 
     <properties>
         <maven.compiler.source>17</maven.compiler.source>
